@@ -1,0 +1,29 @@
+.search-page {
+    padding: 2rem;
+  }
+  
+  .search-results {
+    margin-top: 2rem;
+  }
+  
+  .search-result {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  /* 반응형 디자인 */
+  @media (max-width: 2500px) {
+    .search-page {
+      padding: 1rem;
+      left: 0;
+      width: 100%;
+    }
+  
+    .search-result {
+      padding: 0.5rem;
+    }
+  }
+  
